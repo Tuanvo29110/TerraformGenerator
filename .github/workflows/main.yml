@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: TerraformGenerator
-        path: buildProj/build/libs/buildProj-all.jar
+        path: buildProj/build/libs/*
